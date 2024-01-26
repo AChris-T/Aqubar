@@ -337,7 +337,7 @@ const CourseCarousel = () => {
               <div className="flex items-center justify-between mt-10 text-centers">
                     <p className="text-[#5f5f5f] text-[10px] line-through">£5000</p>
                     <p className="text-[15px] font-normal text-[#353535]">£5000</p>
-                    <button className="bg-[#198cf6] rounded-md cursor-pointer gap-3 w-[88px] h-[23px] flex items-center justify-center">
+                    <button className="bg-[#198cf6] rounded-md cursor-pointer gap-3 w-[88px] h-[50px] flex items-center justify-center">
                     <CartIcon/>
                     <p className="text-[8px] text-[#fff] font-medium font-inter ">Buy course</p>
                     </button>
