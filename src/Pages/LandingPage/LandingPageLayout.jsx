@@ -9,7 +9,7 @@ import Tutor from "../../Components/LandingPageComponents/Tutor"
 
 const LandingPageLayout = () => {
   return (
-    <div className="max-w-[1452px] bg-[#FAFAF9] mx-auto shadow-card">
+    <div className="max-w-[1452px] bg-[#FAFAF9] mx-auto shadow-card overflow-x-hidden">
       <Navbar/>
       <HeroSection/>
       <Services/>
