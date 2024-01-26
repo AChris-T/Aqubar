@@ -7,7 +7,7 @@ const Tutor = () => {
     <div>
         <div className="flex flex-col justify-between gap-8 lg:flex-row">
         <div className="flex gap-[20px] flex-col">
-            <h5 className="text-[50px] font-Montserrat font-medium text-[#000] flex text-center">Become a tutor</h5>
+            <h5 className="md:text-[50px] text-[30px] font-Montserrat font-medium text-[#000] flex text-center">Become a tutor</h5>
             <p className="md:w-[600px] text-[25px] font-light">Join a wide range of tutors from different tech fields, upload courses on aquber.</p>
             <button className="border-2 border-[#198cf6] rounded-md text-[#198cf6] font-inter text-[15px] w-[183px] h-[51px] hover:bg-[#198cf6] hover:text-[#fff]">Become a tutor</button>
         </div>
@@ -20,7 +20,7 @@ const Tutor = () => {
             <EventIcon/>
            </div>
            <div className="flex flex-col gap-[26px] lg:-ml-20">
-           <h3 className="text-[#000] font-Montserrat text-[50px] font-normal flex text-center ">Event and webinar</h3>
+           <h3 className="text-[#000] font-Montserrat md:text-[50px] text-[30px] font-normal flex text-center ">Event and webinar</h3>
            <p className="text-[20px] font-Montserrat font-light text-[#000]">Join techies from different fields, attend and take
                 part in our events, boot camp and webinar both
                 online and physically.
@@ -32,7 +32,7 @@ const Tutor = () => {
     </div>
     <div>
         <div className="flex justify-center mt-[111px] flex-col items-center gap-[10px]">
-            <h3 className=" px-4 flex text-center text-[25px] font-inter font-light text-[#000]">Begin your journey with courses on aquber</h3>
+            <h3 className=" px-4 flex text-center md:text-[25px] text-[20px] font-inter font-light text-[#000]">Begin your journey with courses on aquber</h3>
             <button className="border-2 border-[#198cf6] rounded-md text-[#fff] font-inter text-[15px] w-[183px] h-[51px] bg-[#198cf6] hover:bg-[#198cf6] hover:text-[#fff]">Get Started</button>
 
         </div>

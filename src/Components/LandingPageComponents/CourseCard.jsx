@@ -10,7 +10,7 @@ const CourseCard = () => {
         From web dev to as far as graphic designing.
         </p>
 
-        <h3 className="text-[#000000] font-inter font-semibold text-[25px] mt-[20px]">Build your career in the tech space with our diverse courses....</h3>
+        <h3 className="text-[#000000] font-inter font-semibold text-[20px] md:text-[25px] mt-[20px]">Build your career in the tech space with our diverse courses....</h3>
         <CourseCarousel/>
         </div>
       
