@@ -11,7 +11,7 @@ import "swiper/css/pagination";
 const HeroSection = () => {
   return (
     <>
-    <div className="h-[450px] flex justify-between bg-[#101223]">
+    <div className="h-[450px] mt-[80px] flex justify-between bg-[#101223]">
       <div className=" px-4 md:px-[70px] flex flex-col justify-center h-full gap-[34px]">
         <h2 className="text-[#fff] font-jacques text-[60px]">Aquber</h2>
         <p className="font-Montserrat md:w-[620px] flex flex-wrap text-white z-20 font-light text-[20px]">Welcome to our tech page!<br/>

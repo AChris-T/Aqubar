@@ -3,7 +3,7 @@ import { IoMenu } from "react-icons/io5";
 
 const Navbar = () => {
   return (
-    <div className="flex items-center  bg-white justify-between md:px-[40px]  lg:px-[60px] h-[80px] pr-2  top-0 z-20">
+    <div className="flex items-center fixed w-full top-0 left-0  bg-white justify-between md:px-[40px]  lg:px-[60px] h-[80px] pr-2   z-20">
       <div>
         <img src={logo} alt="logo" width={"147px"} height={"px2rem(52)"} className=""/>
       </div>
