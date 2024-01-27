@@ -5,13 +5,13 @@ const Tutor = () => {
     <>
       <div className="flex flex-col md:flex-row md:px-[72px] px-3">
     <div>
-        <div className="flex flex-col justify-between gap-8 lg:flex-row">
+        <h5 className="md:text-[50px] text-[30px] mb-[10px] font-Montserrat font-medium text-[#000] flex text-center">Become a tutor</h5>
+        <div className="flex md:flex-col flex-col-reverse justify-between gap-8 lg:flex-row">
         <div className="flex gap-[20px] flex-col">
-            <h5 className="md:text-[50px] text-[30px] font-Montserrat font-medium text-[#000] flex text-center">Become a tutor</h5>
             <p className="md:w-[600px] md:text-[20px] text-[15px] font-light">Join a wide range of tutors from different tech fields, upload courses on aquber.</p>
             <button className="border-2 border-[#198cf6] rounded-md text-[#198cf6] font-inter text-[15px] w-[183px] h-[51px] hover:bg-[#198cf6] hover:text-[#fff]">Become a tutor</button>
         </div>
-        <div className="md:w-[501px] h-[349px] rounded-[10px] bg-[#198cf6] px-[19px] py-[27px] ">
+        <div className="md:w-[480px] h-[349px] rounded-[10px] bg-[#198cf6] px-[19px] py-[27px] ">
             <img src={tutor} alt="tutorImage" className="object-cover h-full "/>
         </div>
         </div>

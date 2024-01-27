@@ -351,7 +351,6 @@ const CourseCarousel = () => {
         <button onClick={() => swiperRef.current?.slideNext()} className="mt-[-200px] opacity-20 z-20 text-[40px] bg-black h-[60px] rounded-full text-[#fff] w-[60px] flex items-center justify-center"><MdOutlineKeyboardArrowRight /></button>
   </div>
 
-  <div className="h-2 lg:w-[700px] w-200px bg-[#198cf6] flex justify-center items-center lg:mx-80 mx-8  mt-[105px]"></div>
 
 </>
   )

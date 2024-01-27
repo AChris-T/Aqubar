@@ -29,9 +29,9 @@ const HeroSection = () => {
           className="text-white w-full ml-[-160px] gap-72 hidden lg:block"
         >
              <SwiperSlide><img src={hero3} alt="heroImg" className="w-full h-full"/></SwiperSlide>
-             <SwiperSlide><img src={hero2} alt="heroImg" className="w-full h-full"/></SwiperSlide>
-             <SwiperSlide><img src={hero1} alt="heroImg" className="w-full h-full"/></SwiperSlide>
-             <SwiperSlide><img src={hero4} alt="heroImg" className="w-full h-full"/></SwiperSlide>
+             <SwiperSlide><img src={hero2} alt="heroImg" className="w-full h-full "/></SwiperSlide>
+             <SwiperSlide><img src={hero1} alt="heroImg" className="w-full h-full "/></SwiperSlide>
+             <SwiperSlide><img src={hero4} alt="heroImg" className="w-full h-full "/></SwiperSlide>
         </Swiper>
       </div>
       <div>
