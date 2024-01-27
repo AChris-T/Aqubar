@@ -11,8 +11,8 @@ const Tutor = () => {
             <p className="md:w-[600px] md:text-[20px] text-[15px] font-light">Join a wide range of tutors from different tech fields, upload courses on aquber.</p>
             <button className="border-2 border-[#198cf6] rounded-md text-[#198cf6] font-inter text-[15px] w-[183px] h-[51px] hover:bg-[#198cf6] hover:text-[#fff]">Become a tutor</button>
         </div>
-        <div className="md:w-[480px] h-[349px] rounded-[10px] bg-[#198cf6] px-[19px] py-[27px] ">
-            <img src={tutor} alt="tutorImage" className="object-cover h-full "/>
+        <div className="lg:w-[480px] h-full rounded-[10px] bg-[#198cf6] px-[19px] py-[27px] ">
+            <img src={tutor} alt="tutorImage" className="object-cover h-[] w-full "/>
         </div>
         </div>
         <div className="flex justify-between flex-col lg:flex-row mt-[79px] gap-20 md:gap-0 ">
