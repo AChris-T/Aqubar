@@ -3,4 +3,5 @@ export default {
       tailwindcss: {},
       autoprefixer: {},
     },
-  }
+    'postcss-preset-mantine': {},
+}
