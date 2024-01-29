@@ -19,7 +19,7 @@ const DemandCourses = () => {
         </div> 
         <div className="lg:w-[366px] w-full h-full rounded-[5px] border-[1px] border-[#198cf6]">
             <img src={ui} alt="cyberImage" className="w-full"/>
-            <h2 className="md:text-[25px] text-[20px]  font-semibold text-[#000] px-[20px] py-[35px] font-inter">Product designing(ui/ux)</h2>
+            <h2 className="md:text-[24px] text-[20px] lg:text-[23px]  font-semibold text-[#000] px-[15px] py-[35px] font-inter">Product designing(ui/ux)</h2>
         </div> 
       </div>
     </div>

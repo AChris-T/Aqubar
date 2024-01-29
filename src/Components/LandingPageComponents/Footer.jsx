@@ -6,7 +6,7 @@ import Twitter from "../Icons/Twitter"
 const Footer = () => {
   return (
     <div className="bg-[#0E0E0E] ">
-    <div className=" border-b-[#198cf6] border-b-2 font-inter  text-[#cacaca] px-4 md:px-[70px] py-[29px] w-full flex justify-between md:items-center flex-col md:flex-row">
+    <div className=" border-b-[#198cf6] border-b-2 font-inter  text-[#cacaca] px-4 md:px-4 lg:px-[70px] py-[29px] w-full flex justify-between md:items-center flex-col  md:flex-row">
 
         <div className="flex-col  md:flex gap-[30px] hidden  ">
             <h1 className="font-semibold text-[20px]">Usefull links</h1>
@@ -27,7 +27,7 @@ const Footer = () => {
             technologies.
             </p>
             <div className="flex items-center">
-            <input className="md:w-[374px] rounded-[40px] h-[48px] border-[1px] border-[#198cf6] bg-transparent" />
+            <input className="md:w-[374px] px-4 place rounded-[40px] h-[48px] border-[1px] border-[#198cf6] bg-transparent" />
             <div className="cursor-pointer ml-[-40px]">
             <SearchIcons/>
             </div>
