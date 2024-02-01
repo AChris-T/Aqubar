@@ -6,7 +6,7 @@ import Twitter from "../Icons/Twitter"
 const Footer = () => {
   return (
     <div className="bg-[#0E0E0E] ">
-    <div className=" border-b-[#198cf6] border-b-2 font-inter  text-[#cacaca] px-4 md:px-4 lg:px-[70px] py-[29px] w-full flex justify-between md:items-center flex-col  md:flex-row">
+    <div className=" border-b-[#198cf6] border-b-2 font-inter  text-[#cacaca] px-4 md:px-10 lg:px-[70px] py-[29px] w-full flex justify-between md:items-center flex-col  md:flex-row">
 
         <div className="flex-col  md:flex gap-[30px] hidden  ">
             <h1 className="font-semibold text-[20px]">Usefull links</h1>
@@ -23,11 +23,11 @@ const Footer = () => {
         
         <div  className="px-2 mt-8 flex flex-col gap-4">
           <h2 className="text-[25px] font-semibold">Newsletter</h2>
-          <p>Subscribe for newsletters from Aquber 
+          <p className="md:w-[200px]">Subscribe for newsletters from Aquber 
             technologies.
             </p>
             <div className="flex items-center">
-            <input className="md:w-[374px] px-4 place rounded-[40px] h-[48px] border-[1px] border-[#198cf6] bg-transparent" />
+            <input className="lg:w-[374px] md:w-[250px] px-4 place rounded-[40px] h-[48px] border-[1px] border-[#198cf6] bg-transparent" />
             <div className="cursor-pointer ml-[-40px]">
             <SearchIcons/>
             </div>

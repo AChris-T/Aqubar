@@ -15,7 +15,7 @@ const CourseCard = () => {
         <CourseCarousel/>
         </div>
 
-        <div className="h-2 lg:w-[750px] w-200px bg-[#198cf6] flex justify-center items-center lg:mx-80 md:mx-[52px] mx-2  mb-[80px] mt-[105px]"></div>
+        <div className="h-2 lg:w-[750px] w-200px bg-[#198cf6] flex justify-center items-center lg:mx-80 md:mx-[152px] mx-2  mb-[80px] mt-[105px]"></div>
         </>
 
       

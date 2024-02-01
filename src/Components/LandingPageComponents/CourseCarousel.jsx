@@ -16,7 +16,8 @@ const CourseCarousel = () => {
     const swiperRef = useRef();
 
   return (
-    <><Swiper
+    <>
+    <Swiper
     modules={[Navigation]}
         onBeforeInit={(swiper) => {
           swiperRef.current = swiper;

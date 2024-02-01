@@ -12,9 +12,9 @@ const HeroSection = () => {
   return (
     <>
     <div className="h-[450px] mt-[80px] flex justify-between bg-[#101223]">
-      <div className=" px-4 md:px-[70px] flex flex-col justify-center h-full gap-[34px]">
+      <div className=" px-4 md:px-[50px] lg:px-[70px] flex flex-col justify-center h-full gap-[34px]">
         <h2 className="text-[#fff] font-jacques text-[60px]">Aquber</h2>
-        <p className="font-Montserrat md:w-[620px] flex flex-wrap text-white z-20 font-light text-[20px]">Welcome to our tech page!<br/>
+        <p className="font-Montserrat md:w-[350px] lg:w-[620px] flex flex-wrap text-white z-20 font-light text-[20px]">Welcome to our tech page!<br/>
             We are excited to have you here and to equip you with the latest
             on-demand tech skills.
         </p>
@@ -26,7 +26,7 @@ const HeroSection = () => {
           autoplay={true}
           spaceBetween={30}
           pagination={true}
-          className="text-white w-full ml-[-160px] gap-72 hidden lg:block"
+          className="text-white w-full md:ml-[-50px] ml-[-160px] gap-72 hidden md:block"
         >
              <SwiperSlide><img src={hero3} alt="heroImg" className="w-full h-full"/></SwiperSlide>
              <SwiperSlide><img src={hero2} alt="heroImg" className="w-full h-full "/></SwiperSlide>
