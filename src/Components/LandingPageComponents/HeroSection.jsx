@@ -26,12 +26,12 @@ const HeroSection = () => {
           autoplay={true}
           spaceBetween={30}
           pagination={true}
-          className="text-white w-full md:ml-[-50px] ml-[-160px] gap-72 hidden md:block"
+          className="text-white w-full lg:ml-[-130px] md:ml-[-50px] ml-[-160px] gap-72 hidden md:block"
         >
-             <SwiperSlide><img src={hero3} alt="heroImg" className="w-full h-full"/></SwiperSlide>
-             <SwiperSlide><img src={hero2} alt="heroImg" className="w-full h-full "/></SwiperSlide>
-             <SwiperSlide><img src={hero1} alt="heroImg" className="w-full h-full "/></SwiperSlide>
-             <SwiperSlide><img src={hero4} alt="heroImg" className="w-full h-full "/></SwiperSlide>
+             <SwiperSlide><img src={hero3} alt="heroImg" className="w-full  h-full md:object-contain lg:object-cover opacity-70"/></SwiperSlide>
+             <SwiperSlide><img src={hero2} alt="heroImg" className="w-full h-full md:object-contain lg:object-cover opacity-70 "/></SwiperSlide>
+             <SwiperSlide><img src={hero1} alt="heroImg" className="w-full h-full md:object-contain lg:object-cover opacity-70 "/></SwiperSlide>
+             <SwiperSlide><img src={hero4} alt="heroImg" className="w-full h-full md:object-contain lg:object-cover opacity-70 "/></SwiperSlide>
         </Swiper>
       </div>
       <div>
