@@ -15,7 +15,7 @@ const Services = () => {
                      <img src={service} alt="service" className="mt-10 w-full"/>
                   </div>
                   <div>
-                    <h2 className="lg:w-[752px] md:w-[300px] font-light text-[#000] md:text-[25px] text-[15px] font-Montserrat"><p className="font-medium">- Boot-Camps</p>
+                    <h2 className="lg:w-[752px] md:w-[500px] font-light text-[#000] md:text-[25px] text-[15px] font-Montserrat"><p className="font-medium">- Boot-Camps</p>
                       <p className="mt-10">Explore our specialized boot-camps programs designed 
                       to fast-track your skills and knowledge 
                       in various fields. Whether you're aiming
@@ -30,7 +30,7 @@ const Services = () => {
             <div className="h-2 lg:w-[700px] w-200px bg-[#198cf6] flex  justify-center items-center lg:mx-80 mx-2  md:mx-[152px]  mt-[105px]"></div>
                 <div className="flex flex-col md:flex-row justify-between mt-[80px] md:mt-[118px] px-4 md:px-[63px]">  
                   <div>
-                    <h2 className="lg:w-[752px] md:w-[300px] font-light text-[#000] text-[15px] md:text-[25px] font-Montserrat"><p className="font-medium">- Live Training Sessions</p>
+                    <h2 className="lg:w-[752px] md:w-[500px] font-light text-[#000] text-[15px] md:text-[25px] font-Montserrat"><p className="font-medium">- Live Training Sessions</p>
                       <p className="mt-10">
                         Join our interactive live training
                          sessions to enhance your learning experience.
@@ -51,7 +51,7 @@ const Services = () => {
                       <img src={service_2} alt="service" className="mt-8 w-full"/>
                   </div>
                   <div>
-                    <h2 className="lg:w-[752px] md:w-[300px] font-light text-[#000] text-[15px] md:text-[25px]  font-Montserrat"><p className="font-medium">- Live Training Sessions</p>
+                    <h2 className="lg:w-[752px] md:w-[500px] font-light text-[#000] text-[15px] md:text-[25px]  font-Montserrat"><p className="font-medium">- Live Training Sessions</p>
                       <p className="mt-10">
                         Join our interactive live training
                          sessions to enhance your learning experience.

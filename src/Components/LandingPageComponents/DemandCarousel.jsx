@@ -42,8 +42,11 @@ const DemandCarousel = () => {
         className="text-black  w-full  mt-[20px]  lg:block"
          >
         <SwiperSlide className="flex flex-col bg-[#fff] rounded-md ">
-        <div className=" w-full  h-full rounded-[5px] border-[1px] border-[#198cf6]">
-            <img src={cyber} alt="cyberImage" className="w-full"/>
+        <div className="w-full  h-full rounded-[5px] border-[1px] border-[#198cf6]">
+           <div className="flex ites-center  justify-center rounded-md overflow-hidden">
+           <img src={cyber} alt="cyberImage" className="w-full transition-all opacity-80 hover:opacity-100 hover:scale-[1.05]"/>
+           </div>
+
             <h2 className="md:text-[25px] text-[20px] font-semibold text-[#000] px-[32px] py-[35px] font-inter">Cyber security</h2>
         </div>  
         </SwiperSlide>
