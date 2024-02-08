@@ -63,7 +63,7 @@ const Tutor = () => {
             </Splide>
            </div>
            </div>
-           <div className="flex flex-col justify-center items-center  gap-[26px] lg:-ml-20 ">
+           <div className="flex flex-col justify-center items-center  gap-[26px] lg:-ml-20 mt-[-60px] md:mt-0 ">
            <h3 className="text-[#000] font-Montserrat md:text-[40px] lg:text-[50px] text-[30px] font-normal flex text-center ">Event and webinar</h3>
            <p className="md:text-[20px]   text-[15px] font-Montserrat font-light text-[#000] flex text-center md:text-start">Join techies from different fields, attend and take
                 part in our events, boot camp and webinar both
