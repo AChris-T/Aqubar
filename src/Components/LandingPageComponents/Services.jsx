@@ -5,7 +5,7 @@ import service_2 from "../../assets/Image/served.png"
 const Services = () => {
   return (
     <div>
-        <div className="bg-[#198cf6] md:w-[205px] w-[120px] h-[68px] text-[#fff] text-[15px] md:text-[25px] font-inter font-semibold flex justify-center items-center">Services</div>
+        <div className="bg-[#198cf6] md:w-[205px] w-[120px] h-[50px] md:h-[68px] text-[#fff] text-[15px] md:text-[25px] font-inter font-semibold flex justify-center items-center">Services</div>
         <div className="flex flex-col">
             <div className="flex justify-center flex-wrap text-center lg:text-start mt-[50px]">
                 <h2 className="text-[#000] font-inter font-medium text-[15px] md:text-[25px] px-4 md:px-[63px]">We provide platforms for individuals to learn and grow in the ever-evolving tech space.</h2>
