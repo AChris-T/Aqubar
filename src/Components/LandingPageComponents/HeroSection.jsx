@@ -18,7 +18,7 @@ const HeroSection = () => {
             We are excited to have you here and to equip you with the latest
             on-demand tech skills.
         </p>
-        <button className="text-[#fff]  rounded-[5px] h-[60px] bg-[#198CF6] w-[207px] border-2 border-[#198cf6] hover:bg-[#198cf6] text-[15px] font-semibold">Get Started</button>
+        <button className="text-[#fff]  rounded-[5px] h-[60px] bg-[#198CF6] w-[160px] md:w-[207px] border-2 border-[#198cf6] hover:bg-[#198cf6] text-[15px] font-semibold">Get Started</button>
       </div>
       <Swiper
           modules={[Pagination, Autoplay,]}
