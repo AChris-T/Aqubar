@@ -24,7 +24,7 @@ const Tutor = () => {
         <div className="flex flex-col-reverse justify-between gap-8 md:flex-row">
         <div className="flex justify-center items-center md:items-start gap-[20px] flex-col">
           <h5 className="md:text-[50px] text-[30px]  font-Montserrat font-medium  text-[#000] flex text-center">Become a tutor</h5>
-            <p className="lg:w-[600px] px-[30px] md:px-0 md:text-[20px] text-[15px] font-light mt-[-15px] flex text-center">Join a wide range of tutors from different tech fields, upload courses on aquber.</p>
+            <p className="lg:w-[600px] md:text-[20px] text-[15px] font-light mt-[-15px] flex text-center md:text-start">Join a wide range of tutors from different tech fields, upload courses on aquber.</p>
             <button className="border-2 border-[#198cf6] rounded-md text-[#198cf6] font-inter text-[15px] w-[183px] h-[51px] hover:bg-[#198cf6] hover:text-[#fff]">Become a tutor</button>
         </div>
         <div className="lg:w-[480px] h-full rounded-[10px] bg-[#198cf6] px-[19px] py-[27px] ">
@@ -32,7 +32,7 @@ const Tutor = () => {
         </div>
         </div>
       
-        <div className="flex  justify-center  items-center flex-col md:flex-row mt-[80px] gap-20 md:gap-0 ">
+        <div className="flex  justify-center  items-center flex-col md:flex-row mt-[30px] md:mt-[80px] gap-20 md:gap-0 ">
           <div className="w-full md:ml-[-30px] flex justify-center items-center lg:ml-0">
            <div className=" mt-[0px] w-[350px] " >
            <Splide aria-label="My Favorite Images" 
@@ -65,7 +65,7 @@ const Tutor = () => {
            </div>
            <div className="flex flex-col justify-center items-center  gap-[26px] lg:-ml-20 ">
            <h3 className="text-[#000] font-Montserrat md:text-[40px] lg:text-[50px] text-[30px] font-normal flex text-center ">Event and webinar</h3>
-           <p className="md:text-[20px]   text-[15px] font-Montserrat font-light text-[#000]">Join techies from different fields, attend and take
+           <p className="md:text-[20px]   text-[15px] font-Montserrat font-light text-[#000] flex text-center md:text-start">Join techies from different fields, attend and take
                 part in our events, boot camp and webinar both
                 online and physically.
             </p>

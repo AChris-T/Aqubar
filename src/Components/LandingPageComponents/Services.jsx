@@ -16,7 +16,7 @@ const Services = () => {
                   </div>
                   <div>
                     <h2 className="lg:w-[752px] md:w-[500px] font-light text-[#000] md:text-[25px] text-[15px] font-Montserrat"><p className="font-medium">- Boot-Camps</p>
-                      <p className="mt-10">Explore our specialized boot-camps programs designed 
+                      <p className="mt-10 flex text-center md:text-start">Explore our specialized boot-camps programs designed 
                       to fast-track your skills and knowledge 
                       in various fields. Whether you're aiming
                        for a career change or looking to
@@ -31,7 +31,7 @@ const Services = () => {
                 <div className="flex flex-col md:flex-row justify-between mt-[80px] md:mt-[118px] px-4 md:px-[63px]">  
                   <div>
                     <h2 className="lg:w-[752px] md:w-[500px] font-light text-[#000] text-[15px] md:text-[25px] font-Montserrat"><p className="font-medium">- Live Training Sessions</p>
-                      <p className="mt-10">
+                      <p className="mt-10 flex text-center md:text-start">
                         Join our interactive live training
                          sessions to enhance your learning experience.
                           Our expert educators provide real-time guidance,
@@ -52,7 +52,7 @@ const Services = () => {
                   </div>
                   <div>
                     <h2 className="lg:w-[752px] md:w-[500px] font-light text-[#000] text-[15px] md:text-[25px]  font-Montserrat"><p className="font-medium">- Events</p>
-                      <p className="mt-10">
+                      <p className="mt-10 flex text-center md:text-start">
                        Stay Informed and Engaged! Explore our upcoming webinars, worskshops, and conferences to keep up with the latest trends in education technology, connect with eperts, and enhance your teaching and learning experience.</p>
                     </h2>
                   </div>
