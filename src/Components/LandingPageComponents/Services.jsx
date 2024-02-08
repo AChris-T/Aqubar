@@ -15,7 +15,7 @@ const Services = () => {
                      <img src={service} alt="service" className="mt-10 w-full  px-[20px] md:px-0"/>
                   </div>
                   <div>
-                    <h2 className="lg:w-[752px] md:w-[500px] font-light text-[#000] md:text-[25px] text-[15px] font-Montserrat"><p className="font-medium">- Boot-Camps</p>
+                    <h2 className="lg:w-[752px] md:w-[500px] font-light text-[#000] md:text-[25px] text-[15px] font-Montserrat"><p className="font-medium  flex justify-center items-center md:justify-start mt-10 md:mt-0">- Boot-Camps</p>
                       <p className="mt-10 flex text-center md:text-start">Explore our specialized boot-camps programs designed 
                       to fast-track your skills and knowledge 
                       in various fields. Whether you're aiming
@@ -28,9 +28,9 @@ const Services = () => {
                   </div>
             </div>
             <div className="h-2 lg:w-[700px] w-200px bg-[#198cf6] flex  justify-center items-center lg:mx-80 mx-2  md:mx-[152px]  mt-[105px]"></div>
-                <div className="flex flex-col md:flex-row justify-between mt-[80px] md:mt-[118px] px-4 md:px-[63px]">  
+                <div className="flex flex-col-reverse md:flex-row justify-between mt-[80px] md:mt-[118px] px-4 md:px-[63px]">  
                   <div>
-                    <h2 className="lg:w-[752px] md:w-[500px] font-light text-[#000] text-[15px] md:text-[25px] font-Montserrat"><p className="font-medium">- Live Training Sessions</p>
+                    <h2 className="lg:w-[752px] md:w-[500px] font-light text-[#000] text-[15px] md:text-[25px] font-Montserrat"><p className="font-medium flex justify-center items-center md:justify-start">- Live Training Sessions</p>
                       <p className="mt-10 flex text-center md:text-start">
                         Join our interactive live training
                          sessions to enhance your learning experience.
@@ -41,7 +41,7 @@ const Services = () => {
                     </h2>
                   </div>
                   <div className="mt-6 ">
-                      <img src={service_1} alt="service" className="mt-10 md:w-full px-[20px] md:px-0" />
+                      <img src={service_1} alt="service" className="md:mt-10 mt:0 mb-10 md:mb-0  md:w-full px-[20px] md:px-0" />
                   </div>
             </div>
             <div className="h-2 lg:w-[700px] w-200px bg-[#198cf6] flex justify-center items-center lg:mx-80 md:mx-[152px] mx-2  mt-[105px]"></div>
@@ -51,7 +51,7 @@ const Services = () => {
                       <img src={service_2} alt="service" className="mt-8 w-full md:w-full px-[20px] md:px-0"/>
                   </div>
                   <div>
-                    <h2 className="lg:w-[752px] md:w-[500px] font-light text-[#000] text-[15px] md:text-[25px]  font-Montserrat"><p className="font-medium">- Events</p>
+                    <h2 className="lg:w-[752px] md:w-[500px] font-light text-[#000] text-[15px] md:text-[25px]  font-Montserrat"><p className="font-medium  flex justify-center items-center md:justify-start">- Events</p>
                       <p className="mt-10 flex text-center md:text-start">
                        Stay Informed and Engaged! Explore our upcoming webinars, worskshops, and conferences to keep up with the latest trends in education technology, connect with eperts, and enhance your teaching and learning experience.</p>
                     </h2>
