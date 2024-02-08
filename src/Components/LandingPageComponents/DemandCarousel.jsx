@@ -52,21 +52,25 @@ const DemandCarousel = () => {
         </SwiperSlide>
         <SwiperSlide className="flex flex-col bg-[#fff] rounded-md ">
         <div className=" w-full h-full rounded-[5px] border-[1px] border-[#198cf6]">
-            <img src={web} alt="cyberImage" className="w-full"/>
+           <div className="flex ites-center  justify-center rounded-md overflow-hidden">
+            <img src={web} alt="cyberImage" className="w-full transition-all opacity-80 hover:opacity-100 hover:scale-[1.05]"/>
+            </div>
             <h2 className="md:text-[25px] text-[20px]  font-semibold text-[#000] px-[32px] py-[35px] font-inter">Web development</h2>
         </div>  
         </SwiperSlide>
         <SwiperSlide className="flex flex-col bg-[#fff] rounded-md ">
         <div className=" w-full h-full rounded-[5px] border-[1px] border-[#198cf6]">
-            <img src={ui} alt="cyberImage" className="w-full"/>
+        <div className="flex ites-center  justify-center rounded-md overflow-hidden">
+            <img src={ui} alt="cyberImage" className=" w-full transition-all opacity-80 hover:opacity-100 hover:scale-[1.05]"/>
+            </div>
             <h2 className="md:text-[23px] text-[20px] lg:text-[23px]  font-semibold text-[#000] px-[15px] py-[35px] font-inter">Product designing(ui/ux)</h2>
         </div> 
         </SwiperSlide>
 
   </Swiper>
   <div className="flex justify-between ">
-       <button onClick={() => swiperRef.current?.slidePrev()} className="mt-[-250px] opacity-80 z-20 text-[40px] bg-black h-[60px] rounded-full text-[#fff] w-[60px] flex items-center justify-center"><MdKeyboardArrowLeft /></button>
-        <button onClick={() => swiperRef.current?.slideNext()} className="mt-[-250px] opacity-80 z-20 text-[40px] bg-black h-[60px] rounded-full text-[#fff] w-[60px] flex items-center justify-center"><MdOutlineKeyboardArrowRight /></button>
+       <button onClick={() => swiperRef.current?.slidePrev()} className="mt-[-260px] opacity-80 z-20 text-[40px] bg-black h-[60px] rounded-full text-[#fff] w-[60px] flex items-center justify-center ml-4"><MdKeyboardArrowLeft /></button>
+        <button onClick={() => swiperRef.current?.slideNext()} className="mt-[-260px] opacity-80 z-20 text-[40px] bg-black h-[60px] rounded-full text-[#fff] w-[60px] flex items-center justify-center mr-4"><MdOutlineKeyboardArrowRight /></button>
   </div>
       
     </>

@@ -51,14 +51,9 @@ const Services = () => {
                       <img src={service_2} alt="service" className="mt-8 w-full"/>
                   </div>
                   <div>
-                    <h2 className="lg:w-[752px] md:w-[500px] font-light text-[#000] text-[15px] md:text-[25px]  font-Montserrat"><p className="font-medium">- Live Training Sessions</p>
+                    <h2 className="lg:w-[752px] md:w-[500px] font-light text-[#000] text-[15px] md:text-[25px]  font-Montserrat"><p className="font-medium">- Events</p>
                       <p className="mt-10">
-                        Join our interactive live training
-                         sessions to enhance your learning experience.
-                          Our expert educators provide real-time guidance,
-                           answer your questions, and help you master key 
-                           concepts. Don't miss the opportunity to engage 
-                           with the best in the field.</p>
+                       Stay Informed and Engaged! Explore our upcoming webinars, worskshops, and conferences to keep up with the latest trends in education technology, connect with eperts, and enhance your teaching and learning experience.</p>
                     </h2>
                   </div>
                   

@@ -348,8 +348,8 @@ const CourseCarousel = () => {
              
   </Swiper>
   <div className="flex justify-between ">
-       <button onClick={() => swiperRef.current?.slidePrev()} className="mt-[-200px] opacity-20 z-20 text-[40px] bg-black h-[60px] rounded-full text-[#fff] w-[60px] flex items-center justify-center"><MdKeyboardArrowLeft /></button>
-        <button onClick={() => swiperRef.current?.slideNext()} className="mt-[-200px] opacity-20 z-20 text-[40px] bg-black h-[60px] rounded-full text-[#fff] w-[60px] flex items-center justify-center"><MdOutlineKeyboardArrowRight /></button>
+       <button onClick={() => swiperRef.current?.slidePrev()} className="mt-[-230px] opacity-20 z-20 text-[40px] bg-black h-[60px] rounded-full text-[#fff] w-[60px] flex items-center justify-center ml-4"><MdKeyboardArrowLeft /></button>
+        <button onClick={() => swiperRef.current?.slideNext()} className="mt-[-230px] opacity-20 z-20 text-[40px] bg-black h-[60px] rounded-full text-[#fff] w-[60px] flex items-center justify-center mr-4"><MdOutlineKeyboardArrowRight /></button>
   </div>
 
 
