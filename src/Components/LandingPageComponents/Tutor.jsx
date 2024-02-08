@@ -24,7 +24,7 @@ const Tutor = () => {
         <div className="flex flex-col-reverse justify-between gap-8 md:flex-row">
         <div className="flex justify-center items-center md:items-start gap-[20px] flex-col">
           <h5 className="md:text-[50px] text-[30px]  font-Montserrat font-medium  text-[#000] flex text-center">Become a tutor</h5>
-            <p className="lg:w-[600px] px-[30px] md:px-0 md:text-[20px] text-[15px] font-light mt-[-15px]">Join a wide range of tutors from different tech fields, upload courses on aquber.</p>
+            <p className="lg:w-[600px] px-[30px] md:px-0 md:text-[20px] text-[15px] font-light mt-[-15px] flex text-center">Join a wide range of tutors from different tech fields, upload courses on aquber.</p>
             <button className="border-2 border-[#198cf6] rounded-md text-[#198cf6] font-inter text-[15px] w-[183px] h-[51px] hover:bg-[#198cf6] hover:text-[#fff]">Become a tutor</button>
         </div>
         <div className="lg:w-[480px] h-full rounded-[10px] bg-[#198cf6] px-[19px] py-[27px] ">
