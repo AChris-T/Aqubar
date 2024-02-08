@@ -11,10 +11,10 @@ import "swiper/css/pagination";
 const HeroSection = () => {
   return (
     <>
-    <div className="h-[450px] lg:h-[450px] md:h-[330px] mt-[80px] flex justify-between bg-[#101223]">
+    <div className="h-[330px] lg:h-[450px] md:h-[330px]  mt-[40px] md:mt-[80px] flex justify-between bg-[#101223]">
       <div className=" px-4 md:px-[50px] lg:px-[70px] flex flex-col justify-center h-full gap-[34px] lg:gap-[34px] md:gap-[10px]">
-        <h2 className="text-[#fff] font-jacques text-[60px]">Aquber</h2>
-        <p className="font-Montserrat md:w-[350px] lg:w-[620px] flex flex-wrap text-white z-20 font-light text-[20px] md:text-[15px] lg:text-[20px]">Welcome to our tech page!<br/>
+        <h2 className="text-[#fff] font-jacques text-[40px] md:text-[60px]">Aquber</h2>
+        <p className="font-Montserrat md:w-[350px] lg:w-[620px] flex flex-wrap text-white z-20 font-light text-[15px] md:text-[15px] lg:text-[20px]">Welcome to our tech page!<br/>
             We are excited to have you here and to equip you with the latest
             on-demand tech skills.
         </p>
@@ -35,7 +35,7 @@ const HeroSection = () => {
         </Swiper>
       </div>
       <div>
-        <div className="bg-[#198cf6] w-[205px] h-[68px] text-[#fff] text-[25px] font-inter font-semibold flex justify-center items-center">
+        <div className="bg-[#198cf6] w-[190px] md:w-[205px] h-[68px] text-[#fff] text-[20px] md:text-[25px] font-inter font-semibold flex justify-center items-center">
             Aquber
         </div>
         <div className=" px-4 md:px-[71px]   flex flex-col gap-8 py-[51px] text-[#000] font-Montserrat text-[15px] md:text-[20px] font-light  ">

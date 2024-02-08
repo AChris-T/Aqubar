@@ -8,7 +8,7 @@ const Navbar = () => {
   const [opened, { open, close }] = useDisclosure(false);
   return (
     <div className="fixed w-[100%] max-w-[1452px] z-30 ">   
-    <div className="flex items-center relative  top-0 left-0  bg-white justify-between md:px-[40px]  lg:px-[60px] h-[80px] pr-2   z-20">
+    <div className="flex items-center relative  top-0 left-0  bg-white justify-between md:px-[40px]  lg:px-[60px] md:h-[80px] h-[60px] pr-2   z-20">
       <div>
         <img src={logo} alt="logo" width={"147px"} height={"px2rem(52)"} className=""/>
       </div>

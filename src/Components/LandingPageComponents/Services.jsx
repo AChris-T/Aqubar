@@ -5,14 +5,14 @@ import service_2 from "../../assets/Image/served.png"
 const Services = () => {
   return (
     <div>
-        <div className="bg-[#198cf6] w-[205px] h-[68px] text-[#fff] text-[25px] font-inter font-semibold flex justify-center items-center">Services</div>
+        <div className="bg-[#198cf6] md:w-[205px] w-[190px] h-[68px] text-[#fff] text-[20px] md:text-[25px] font-inter font-semibold flex justify-center items-center">Services</div>
         <div className="flex flex-col">
             <div className="flex justify-center flex-wrap text-center lg:text-start mt-[50px]">
                 <h2 className="text-[#000] font-inter font-medium text-[15px] md:text-[25px] px-4 md:px-[63px]">We provide platforms for individuals to learn and grow in the ever-evolving tech space.</h2>
             </div>
             <div className="flex flex-col md:flex-row justify-between md:mt-[118px] mt-[40px] px-4 md:px-[63px]">
                   <div>
-                     <img src={service} alt="service" className="mt-10 w-full"/>
+                     <img src={service} alt="service" className="mt-10 w-full  px-[20px] md:px-0"/>
                   </div>
                   <div>
                     <h2 className="lg:w-[752px] md:w-[500px] font-light text-[#000] md:text-[25px] text-[15px] font-Montserrat"><p className="font-medium">- Boot-Camps</p>
@@ -41,14 +41,14 @@ const Services = () => {
                     </h2>
                   </div>
                   <div className="mt-6 ">
-                      <img src={service_1} alt="service" className="mt-10 w-full" />
+                      <img src={service_1} alt="service" className="mt-10 md:w-full px-[20px] md:px-0" />
                   </div>
             </div>
             <div className="h-2 lg:w-[700px] w-200px bg-[#198cf6] flex justify-center items-center lg:mx-80 md:mx-[152px] mx-2  mt-[105px]"></div>
 
                 <div className="flex flex-col md:flex-row justify-between md:mt-[118px] mt-[80px] gap-8 px-4 md:px-[63px]">  
                 <div className="banner">
-                      <img src={service_2} alt="service" className="mt-8 w-full"/>
+                      <img src={service_2} alt="service" className="mt-8 w-full md:w-full px-[20px] md:px-0"/>
                   </div>
                   <div>
                     <h2 className="lg:w-[752px] md:w-[500px] font-light text-[#000] text-[15px] md:text-[25px]  font-Montserrat"><p className="font-medium">- Events</p>
