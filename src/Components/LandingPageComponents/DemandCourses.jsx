@@ -9,7 +9,8 @@ const DemandCourses = () => {
       </div>
       <DemandCarousel/>
     </div>
-      <div className="h-2 lg:w-[700px] w-200px mb-[80px] bg-[#198cf6] flex justify-center items-center lg:mx-80 md:mx-[152px] mx-2  mt-[105px]"></div>
+      <div className="h-2 lg:w-[700px] w-200px mb-[80px] bg-[#198cf6] flex justify-center items-center lg:mx-80 md:mx-[152px] mx-[50px]
+       mt-[105px]"></div>
     </>
   )
 }

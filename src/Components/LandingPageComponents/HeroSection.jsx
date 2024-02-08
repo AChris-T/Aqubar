@@ -35,7 +35,7 @@ const HeroSection = () => {
         </Swiper>
       </div>
       <div>
-        <div className="bg-[#198cf6] w-[190px] md:w-[205px] h-[68px] text-[#fff] text-[20px] md:text-[25px] font-inter font-semibold flex justify-center items-center">
+        <div className="bg-[#198cf6] w-[120px] md:w-[205px] h-[68px] text-[#fff] text-[15px] md:text-[25px] font-inter font-semibold flex justify-center items-center">
             Aquber
         </div>
         <div className=" px-4 md:px-[71px]   flex flex-col gap-8 py-[51px] text-[#000] font-Montserrat text-[15px] md:text-[20px] font-light  ">

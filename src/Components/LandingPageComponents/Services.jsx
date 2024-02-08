@@ -5,7 +5,7 @@ import service_2 from "../../assets/Image/served.png"
 const Services = () => {
   return (
     <div>
-        <div className="bg-[#198cf6] md:w-[205px] w-[190px] h-[68px] text-[#fff] text-[20px] md:text-[25px] font-inter font-semibold flex justify-center items-center">Services</div>
+        <div className="bg-[#198cf6] md:w-[205px] w-[120px] h-[68px] text-[#fff] text-[15px] md:text-[25px] font-inter font-semibold flex justify-center items-center">Services</div>
         <div className="flex flex-col">
             <div className="flex justify-center flex-wrap text-center lg:text-start mt-[50px]">
                 <h2 className="text-[#000] font-inter font-medium text-[15px] md:text-[25px] px-4 md:px-[63px]">We provide platforms for individuals to learn and grow in the ever-evolving tech space.</h2>
@@ -27,7 +27,7 @@ const Services = () => {
                     </h2>
                   </div>
             </div>
-            <div className="h-2 lg:w-[700px] w-200px bg-[#198cf6] flex  justify-center items-center lg:mx-80 mx-2  md:mx-[152px]  mt-[105px]"></div>
+            <div className="h-2 lg:w-[700px] w-200px bg-[#198cf6] flex  justify-center items-center lg:mx-80 mx-[50px]  md:mx-[152px]  mt-[105px]"></div>
                 <div className="flex flex-col-reverse md:flex-row justify-between mt-[80px] md:mt-[118px] px-4 md:px-[63px]">  
                   <div>
                     <h2 className="lg:w-[752px] md:w-[500px] font-light text-[#000] text-[15px] md:text-[25px] font-Montserrat"><p className="font-medium flex justify-center items-center md:justify-start">- Live Training Sessions</p>
@@ -44,7 +44,7 @@ const Services = () => {
                       <img src={service_1} alt="service" className="md:mt-10 mt:0 mb-10 md:mb-0  md:w-full px-[20px] md:px-0" />
                   </div>
             </div>
-            <div className="h-2 lg:w-[700px] w-200px bg-[#198cf6] flex justify-center items-center lg:mx-80 md:mx-[152px] mx-2  mt-[105px]"></div>
+            <div className="h-2 lg:w-[700px] w-200px bg-[#198cf6] flex justify-center items-center lg:mx-80 md:mx-[152px] mx-[50px]  mt-[105px]"></div>
 
                 <div className="flex flex-col md:flex-row justify-between md:mt-[118px] mt-[80px] gap-8 px-4 md:px-[63px]">  
                 <div className="banner">
@@ -58,7 +58,7 @@ const Services = () => {
                   </div>
                   
             </div>
-            <div className="h-2 lg:w-[700px] w-200px bg-[#198cf6] flex justify-center items-center lg:mx-80 mx-2 md:mx-[152px] mt-[105px]"></div>
+            <div className="h-2 lg:w-[700px] w-200px bg-[#198cf6] flex justify-center items-center lg:mx-80 mx-[50px] md:mx-[152px] mt-[105px]"></div>
         </div>
     </div>
   )
