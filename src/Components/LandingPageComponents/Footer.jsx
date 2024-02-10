@@ -27,7 +27,7 @@ const Footer = () => {
         
         <div  className="flex flex-col gap-4 px-2 mt-8">
           <h2 className="text-[25px] font-semibold">Newsletter</h2>
-          <p className="md:w-[200px]">Subscribe for newsletters from Aquber 
+          <p className="md:w-[250px] lg:w-full">Subscribe for newsletters from Aquber 
             technologies.
             </p>
             <div className="flex items-center">

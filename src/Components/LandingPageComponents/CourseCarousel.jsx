@@ -26,10 +26,10 @@ const CourseCarousel = () => {
     effect={"flip"}
     grabCursor={true}
     pagination={true}
-    slidesPerView={4}
+    slidesPerView={'auto'}
     breakpoints={{
           240: {
-            slidesPerView: 1,
+            slidesPerView: "auto",
             spaceBetween: 20,
           },
           768: {
@@ -43,9 +43,9 @@ const CourseCarousel = () => {
     }}
     autoplay={true}
     spaceBetween={30}
-    className="text-black  w-full  mt-[20px]  lg:block"
+    className="text-black w-full  mt-[20px]  lg:block"
   >
-       <SwiperSlide className="flex flex-col bg-[#fff] rounded-md ">
+       <SwiperSlide className="flex w-full bg-[#fff] flex-col rounded-md ">
           <div>
                 <img src={CourseImage_1} alt='corse' width={"100%"}/>
           </div>
@@ -62,7 +62,7 @@ const CourseCarousel = () => {
                 <p className="text-[13px] font-normal font-inter text-[#353535]">54h</p>
               </div>
               <div className="mt-[16px] flex items-center gap-2 w-full">
-                    <img src={Tutor} alt="tutorImage" className="object-contain w-[25px] h-[25px] rounded-full"/>
+                    <img src={Tutor} alt="tutorImage" className="object-contain  h-[25px] rounded-full"/>
                     <p className="text-[#353535] font-inter text-[10px] font-normal">Posted by Aquber for javascript and web development</p>
               </div>
               <div className="flex items-center justify-between mt-10 text-centers">

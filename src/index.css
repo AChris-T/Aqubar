@@ -25,3 +25,15 @@
   display: flex;
   flex-direction: column;
 }
+
+.swiper-slide {
+  width: 80%;
+}
+
+.swiper-slide:nth-child(2n) {
+  width: 80%;
+}
+
+.swiper-slide:nth-child(3n) {
+  width: 80%;
+}
