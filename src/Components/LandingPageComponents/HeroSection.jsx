@@ -7,14 +7,30 @@ import { Autoplay, Pagination } from "swiper/modules";
 import "swiper/css/autoplay";
 import "swiper/css";
 import "swiper/css/pagination";
+import { TypeAnimation } from 'react-type-animation';
+
 
 const HeroSection = () => {
   return (
     <>
     <div className="h-[330px] lg:h-[450px] md:h-[330px]  mt-[40px] md:mt-[80px] flex justify-between bg-[#101223]">
       <div className=" px-4 md:px-[50px] lg:px-[70px] flex flex-col justify-center h-full gap-[15px] lg:gap-[34px] md:gap-[10px]">
-        <h2 className="text-[#fff] font-jacques text-[40px] md:text-[60px] mt-[40px]  md:mt-0">Aquber</h2>
-        <p className="font-Montserrat md:w-[350px] lg:w-[620px] flex flex-wrap text-white mb-4 md:mb-0 z-20 font-light text-[15px] md:text-[15px] lg:text-[20px]">Welcome to our tech page!<br/>
+        <h2 className="waviy text-[#fff] font-jacques text-[40px] md:text-[60px] mt-[40px]  md:mt-0">
+        <span style={{ '--i': 1 }}>A</span>
+        <span style={{ '--i': 2 }}>q</span>
+        <span style={{ '--i': 3 }}>u</span>
+        <span style={{ '--i': 4 }}>b</span>
+        <span style={{ '--i': 5 }}>e</span>
+        <span style={{ '--i': 6 }}>r</span>
+        </h2>
+        <p className="font-Montserrat md:w-[350px] lg:w-[620px] flex flex-wrap text-white mb-4 md:mb-0 z-20 font-light text-[15px] md:text-[15px] lg:text-[20px]">
+        <TypeAnimation
+          sequence={['Welcome to our tech page!',500 , '',
+    500,]}
+            className="font-Montserrat md:w-[350px] lg:w-[620px]  text-white  z-20 font-light text-[15px] md:text-[15px] lg:text-[20px]" 
+            repeat={Infinity}
+            speed={40}
+            />
             We are excited to have you here and to equip you with the latest
             on-demand tech skills.
         </p>
