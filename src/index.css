@@ -67,3 +67,21 @@
     transform: translateY(-20px)
   }
 }
+.eventbg{
+  background-image: url("./assets/Image/unsplash_dJICd7b_LlE.png");
+  height:100%;
+  width: 100%;
+  background-size: cover;
+  background-attachment: initial;
+  background-repeat: no-repeat;
+  background-position-y:center;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .eventbg {
+    background-size: auto;
+    height: 500px;
+  }
+}

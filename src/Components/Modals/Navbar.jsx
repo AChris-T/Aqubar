@@ -8,12 +8,12 @@ const Navbar = () => {
   const [opened, { open, close }] = useDisclosure(false);
   return (
     <div className="fixed w-[100%] max-w-[1500px] z-30 ">   
-    <div className="flex items-center relative  top-0 left-0  bg-white justify-between md:px-[40px]  lg:px-[60px] md:h-[80px] h-[60px] pr-2   z-20">
+    <div className="flex items-center relative  top-0 left-0  bg-white justify-between md:px-[px2rem(40)]  lg:px-[px2rem(60)] md:h-[80px] h-[60px] pr-2   z-20">
       <div>
         <img src={logo} alt="logo" width={"147px"} height={"px2rem(52)"} className=""/>
       </div>
       <div className=" flex justify-center items-center font-inter text-[20px] font-normal text-[#353535] md:gap-[31px] gap-2.5 ">
-        <IoMenu onClick={open}  className=" text-[50px] md:hidden cursor-pointer"/>
+        <IoMenu onClick={open}  className=" text-[30px] md:hidden cursor-pointer"/>
         <a href="/" className="hidden  md:block hover:border-b-4 hover:border-[#198cf6]">Service</a>
         <a href="/" className="hidden  md:block  hover:border-b-4 hover:border-[#198cf6]" >Teach on aqubar</a>
         <a href="/" className=" hidden  md:flex px-[18px] md:px-[28px]   justify-center items-center text-[15px] font-semibold h-[42px] rounded-[5px] border-2 border-[#198cf6] hover:bg-[#198cf6] hover:text-white">Login</a>

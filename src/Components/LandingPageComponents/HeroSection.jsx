@@ -56,7 +56,7 @@ const HeroSection = () => {
         </div>
         <div className=" px-4 md:px-[71px]   flex flex-col gap-8 py-[51px] text-[#000] font-Montserrat text-[15px] md:text-[20px] font-light  ">
         <p>
-        Welcome to Aquber technologies, we are excited to have you here and to equip you with the latest on-demand tech skills. Our mission is to provide a platform for individuals to learn and grow in the ever-evolving tech space.
+        Welcome to Aquber, we are excited to have you here and to equip you with the latest on-demand tech skills. Our mission is to provide a platform for individuals to learn and grow in the ever-evolving tech space.
         </p>
         <p>
         We host tech events to keep you up-to-date on the latest trends and to provide a platform for networking and collaboration.

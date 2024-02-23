@@ -14,6 +14,7 @@ import '@splidejs/react-splide/css/sea-green';
 // or only core styles
 import '@splidejs/react-splide/css/core';
 import { Splide, SplideSlide } from '@splidejs/react-splide';
+import { NavLink } from "react-router-dom";
 
 
 const Tutor = () => {
@@ -83,7 +84,9 @@ const Tutor = () => {
                 part in our events, boot camp and webinar both
                 online and physically.
             </p>
-            <button className="border-2 border-[#198cf6] rounded-md text-[#198cf6] font-inter text-[15px] w-[183px] h-[51px] hover:bg-[#198cf6] hover:text-[#fff]">Attend</button>
+            <NavLink to="/events" className="border-2 border-[#198cf6] rounded-md text-[#198cf6] font-inter text-[15px] w-[183px] h-[51px] hover:bg-[#198cf6] hover:text-[#fff] flex justify-center items-center">
+            Attend  
+            </NavLink>
            </div>
         </div>
     </div>
