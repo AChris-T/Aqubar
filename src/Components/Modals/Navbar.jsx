@@ -2,6 +2,7 @@ import logo from "../../assets/Image/AqubarLogo.png"
 import { IoMenu } from "react-icons/io5";
 import { useDisclosure } from '@mantine/hooks';
 import { Drawer  } from '@mantine/core';
+import { NavLink } from "react-router-dom";
 
 
 const Navbar = () => {
@@ -9,9 +10,9 @@ const Navbar = () => {
   return (
     <div className="fixed w-[100%] max-w-[1500px] z-30 ">   
     <div className="flex items-center relative  top-0 left-0  bg-white justify-between md:px-[40px]  lg:px-[60px] md:h-[80px] h-[60px] pr-2   z-20">
-      <div>
+      <NavLink to="/">
         <img src={logo} alt="logo" width={"147px"} height={"px2rem(52)"} className=""/>
-      </div>
+      </NavLink>
       <div className=" flex justify-center items-center font-inter text-[20px] font-normal text-[#353535] md:gap-[31px] gap-2.5 ">
         <IoMenu onClick={open}  className=" text-[30px] md:hidden cursor-pointer"/>
         <a href="/" className="hidden  md:block hover:border-b-4 hover:border-[#198cf6]">Service</a>
