@@ -32,7 +32,7 @@ const PastEvents = () => {
       </div>
       <div className="">
       <h4 className="font-normal text-[30px] leading-[36.57px] font-Montserrat md:px-[40px] py-[40px] px-4  lg:px-[60px]  ">View Our Slide from our previous events</h4>
-      <div className="container bg-white py-14">
+      <div className="w-full bg-white py-14">
       
       <Swiper
         effect={'coverflow'}
