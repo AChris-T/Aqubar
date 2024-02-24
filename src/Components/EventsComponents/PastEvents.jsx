@@ -74,22 +74,22 @@ const PastEvents = () => {
           <img src={Event} alt="slide_image" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Event} alt="slide_image" />
+          <img src={Event_4} alt="slide_image" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Event} alt="slide_image" />
+          <img src={Event_3} alt="slide_image" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Event} alt="slide_image" />
+          <img src={Event_4} alt="slide_image" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Event} alt="slide_image" />
+          <img src={Event_3} alt="slide_image" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Event} alt="slide_image" />
+          <img src={Event_4} alt="slide_image" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Event} alt="slide_image" />
+          <img src={Event_3} alt="slide_image" />
         </SwiperSlide>
 
         <div className="slider-controler">
