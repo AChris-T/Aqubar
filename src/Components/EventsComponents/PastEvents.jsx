@@ -92,11 +92,11 @@ const PastEvents = () => {
           <img src={Event_3} alt="slide_image" />
         </SwiperSlide>
 
-        <div className="slider-controler">
-          <div className="swiper-button-prev slider-arrow">
+        <div className=" slider-controler">
+          <div className="hidden md:block swiper-button-prev slider-arrow">
             <ion-icon name="arrow-back-outline"></ion-icon>
           </div>
-          <div className="swiper-button-next slider-arrow">
+          <div className="hidden md:block swiper-button-next slider-arrow">
             <ion-icon name="arrow-forward-outline"></ion-icon>
           </div>
           <div className="swiper-pagination"></div>
