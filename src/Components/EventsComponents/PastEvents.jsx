@@ -38,7 +38,6 @@ const PastEvents = () => {
         effect={'coverflow'}
         grabCursor={true}
         centeredSlides={true}
-        loop={true}
         breakpoints={{
           340: {
             slidesPerView: 2,
