@@ -12,7 +12,7 @@ const HeroSection = () => {
                </div>
                  <div className="md:w-[40px] w-[45px] rounded-full  border-[1px] border-white h-[40px]"></div>
             </div>
-                <p className="text-white md:ml-[90px] ml-[45px] font-normal text-[16px] md:leading-[24.38px]">Welcome to our Events section!<br/> Get ready for exciting happenings by checking out <br/> our upcoming events.</p>
+                <p className="text-white md:ml-[90px] ml-[45px] font-normal text-[14px] md:leading-[24.38px]">Welcome to our Events section!<br/> Get ready for exciting happenings by checking out <br/> our upcoming events.</p>
             </div>
         </div>
       </div>
