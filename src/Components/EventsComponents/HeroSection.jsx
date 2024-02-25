@@ -8,7 +8,7 @@ const HeroSection = () => {
             <div className="flex items-center justify-between mb-2 "> 
                 <div className="flex items-center w-full gap-2 md:gap-10 font-Montserrat ">  
                 <div className="w-[40px] rounded-full  border-[1px] border-white h-[40px]"></div>
-                <h3 className="font-medium w-[250px] md:w-[500px] md:leading-[60.95px] leading-8 text-[25px]  md:text-[50px] text-white">Discover Our Upcoming events!</h3>
+                <h3 className="font-medium w-[215px] md:w-[500px] md:leading-[60.95px] leading-8 text-[23px]  md:text-[50px] text-white">Discover Our Upcoming events!</h3>
                </div>
                  <div className="md:w-[40px] w-[45px] rounded-full  border-[1px] border-white h-[40px]"></div>
             </div>
