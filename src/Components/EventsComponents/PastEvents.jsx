@@ -68,7 +68,7 @@ const PastEvents = () => {
           clickable: true,
         }}
         modules={[EffectCoverflow, Pagination, Navigation]}
-        className="swiper_container"
+        className="mx-5 swiper_container"
       >
         <SwiperSlide>
           <img src={Event} alt="slide_image" />
